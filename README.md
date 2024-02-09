@@ -33,9 +33,8 @@ first in the feauture header section have navigation container to menu career ab
 
 `<header>  <h2> &nbsp;&nbsp;&nbsp;<i>Kopilah<span style="color: rgb(193, 152, 56)" >Pilih</span><span style="color: brown">.id</span></i></h2><ul><li style="float:right"><a class="active" href="#home">Home</a></li><li style="float:right"><a href="#About">About</a></li><li style="float:right"><a href="#contact">Contact</a></li><li style="float:right"><a href="#Career">Career</a></li></ul></header>`
 
-then if customer want to order should input data to form login, but before that i used a lot sintax br and space code (&nbsp) to provide distance
-
-`<h1>Login</h1><label for="email">Email:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; need <span><a href="#" id="create account">acount?</span></a></label><br />  <input type="text" id="fname" name="fname" placeholder="Input your email" required /> <br /><label for="password">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br /><input type="password" id="password" placeholder="input your password" required/><br/>are you <span><a href="#" id="forgot account">forgot?</span></a><br><input type="submit" value="login">`
+then if customer want to order should input data to form login
+`<div class="wrapper"></div><form action=""><h1>Login</h1><div class="input-box"><input type="text" placeholder="Unsername/Email" required /><i class='bx bx-user'></i></div><div class="input-box"><input type="password" placeholder="Password" required/><i class='bx bxs-lock-alt'></i></div><div class="remember-forgot"><label><input type="checkbox"> Remember me</label><a href="#">Forgot Password</a></div><div class="register-link"><p>Don't have an account?<a href="#">Register</a></p></div><input type="submit" value="login"></form>`
 
 then in the figure feuture there is an image if you click you will go to the main menu cofee in that have a caption for picture at have a caption
 `<figure><a href="#"><imgsrc="kopi.jpg"alt="kopi"style="display: block; margin: auto; width="500" height="300"/></a><figcaption style="text-align: center;">Cofee</figcaption></figure>`
