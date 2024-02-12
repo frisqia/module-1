@@ -59,3 +59,5 @@ know more about me?
 | ----------------------------------------------------------------- | ------------------------------------------------- |
 | [Linkedln](www.linkedin.com/in/frisqia-fatmalaningsih-3259672210) | [Instagram](https://www.instagram.com/xiaocia__/) |
 | [Github](https://github.com/frisqia)                              | [Tiktok](https://www.tiktok.com/@xiaocia__)       |
+
+
