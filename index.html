@@ -12,15 +12,23 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
+      <input type="checkbox" name="bar" id="bar-menu" />
+      <label for="bar-menu" class="bx bx-menu"></label>
+
       <div class="logo">
         <h1>
           Kopilah<span id="latte">Pilih</span><span id="brown">.com</span>
         </h1>
       </div>
+
       <nav class="navbar">
         <li><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
@@ -28,31 +36,108 @@
         <li><a href="#Career">Career</a></li>
       </nav>
     </header>
+
     <main>
-      <div class="wrapper">
-        <h1>Login</h1>
-        <div class="input-box">
-          <input type="text" placeholder="Username/Email" required /><i
-            class="bx bxs-user"
-          ></i>
+      <div class="container">
+        <div class="wrapper">
+          <div class="login">
+            <h1>Login</h1>
+          </div>
+
+          <div class="input-box">
+            <input type="text" placeholder="Username/Email" required />
+            <i class="bx bxs-user"></i>
+          </div>
+
+          <div class="input-box">
+            <input type="password" placeholder="Password" required />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+
+          <div class="remember-forgot">
+            <label><input type="checkbox" />remember me</label
+            ><a href="#">Forgot Password></a>
+          </div>
+
+          <div class="register-link">
+            <p>Don't have an account? <a href="#">Register</a></p>
+          </div>
+
+          <input type="submit" value="Login" />
         </div>
-        <div class="input-box">
-          <input type="password" placeholder="Password" required />
-          <i class="bx bx-lock"></i>
-        </div>
-        <div class="remember-forgot">
-          <label><input type="checkbox" />remember me</label
-          ><a href="#">Forgot Password></a>
-        </div>
-        <div class="register-link">
-          <p>Don't have an account? <a href="#">Register</a></p>
-        </div>
-        <input type="submit" value="Login" />
+
+        <article>
+          <div class="content">
+            <div class="About-cofee">
+              <div class="manfaat">
+                <p class="content-questions">Tahukah Kamu?</p>
+                <p>
+                  <strong>Kopi</strong> adalah tanaman hasil pertanian yang
+                  dijadikan hasil seduhan biji kopi yang telah disangrai dan
+                  dihaluskan menjadi bubuk.[2] Kopi merupakansatu komoditas di
+                  dunia yang dibudidayakan lebih dari 50 negara. Dua spesies
+                  pohon kopi yangsecara umum yaitu Kopi Robusta (Coffea
+                  canephora) dan Kopi Arabika (Coffea arabica).Kopi memiliki
+                  berbagai manfaat yaitu:
+                </p>
+
+                <ol>
+                  <li>Menjaga fungsi otak</li>
+                  <li>Meningkatkan daya ingat</li>
+                  <li>menjaga kadar gula darah</li>
+                  <li>Membantu menurunkan berat badan</li>
+                  <li>Meningkatkan energi</li>
+                  <li>Menjaga kesehatan hati</li>
+                  <a href="#" target="_blank">[Read more]</a>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </main>
-    <article>
-      <figure></figure>
-      <menu></menu>
-    </article>
+
+    <aside>
+      <div class="follow">
+        <p>FOLLOW US</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </aside>
+
+    <footer>
+      <div class="close">
+        <p>copy right &copy; 2024 <span>PT.Makan Bersama</span></p>
+        <p>Our Location</p>
+        <p>Jl. Permata bunda rt 15/8.kec lumajang, Jakarta barat,13122</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31736.43431576598!2d106.71821951866148!3d-6.123396187790374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1d4428195f4d%3A0xa0bbf63ab7e824bc!2sRumah%20Sakit%20Ibu%20dan%20Anak%20Grand%20Family!5e0!3m2!1sid!2sid!4v1707033073754!5m2!1sid!2sid"
+        ></iframe>
+        <p>
+          Curhat yuk 0882-321-1000
+          <i class="fa"> &#xf232; </i> Whatsapp Chat only
+        </p>
+      </div>
+
+      <div class="Question">
+        <p class="Quetion-content">ANY QUESTION?</p>
+        <div class="Question-box">
+          <input type="text" placeholder="Your name" />
+          <input type="text" placeholder="Your Email" />
+        </div>
+
+        <div class="Massage">
+          <textarea
+            id="w3review"
+            name="w3review"
+            rows="4"
+            cols="103.7"
+            placeholder="Your Massage"
+          ></textarea>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
