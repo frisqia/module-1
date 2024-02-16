@@ -38,8 +38,12 @@
     </header>
 
     <main>
-      <div class="container">
-        <div class="wrapper">
+      <div class="banner">
+        <img src="kopi.jpg" alt="cofee" />
+      </div>
+
+      <div class="wrapper">
+        <div class="container">
           <div class="login">
             <h1>Login</h1>
           </div>
@@ -53,49 +57,24 @@
             <input type="password" placeholder="Password" required />
             <i class="bx bxs-lock-alt"></i>
           </div>
-
           <div class="remember-forgot">
-            <label><input type="checkbox" />remember me</label
-            ><a href="#">Forgot Password></a>
+            <label><input type="checkbox" /> Remember me</label>
+            <a class="forgot-password" href="#">Forgot Password</a>
           </div>
 
           <div class="register-link">
-            <p>Don't have an account? <a href="#">Register</a></p>
+            <p>
+              Don't have an account? <a class="Register" href="#">Register</a>
+            </p>
           </div>
-
-          <input type="submit" value="Login" />
+          <input type="submit" value="login" class="send" />
         </div>
-
-        <article>
-          <div class="content">
-            <div class="About-cofee">
-              <div class="manfaat">
-                <p class="content-questions">Tahukah Kamu?</p>
-                <p>
-                  <strong>Kopi</strong> adalah tanaman hasil pertanian yang
-                  dijadikan hasil seduhan biji kopi yang telah disangrai dan
-                  dihaluskan menjadi bubuk.[2] Kopi merupakansatu komoditas di
-                  dunia yang dibudidayakan lebih dari 50 negara. Dua spesies
-                  pohon kopi yangsecara umum yaitu Kopi Robusta (Coffea
-                  canephora) dan Kopi Arabika (Coffea arabica).Kopi memiliki
-                  berbagai manfaat yaitu:
-                </p>
-
-                <ol>
-                  <li>Menjaga fungsi otak</li>
-                  <li>Meningkatkan daya ingat</li>
-                  <li>menjaga kadar gula darah</li>
-                  <li>Membantu menurunkan berat badan</li>
-                  <li>Meningkatkan energi</li>
-                  <li>Menjaga kesehatan hati</li>
-                  <a href="#" target="_blank">[Read more]</a>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </article>
+        <div class="img-content">
+          <img src="kopi.jpg" alt="cofee" />
+        </div>
       </div>
     </main>
+
     <figure>
       <div class="container-card">
         <div class="card">
@@ -109,6 +88,7 @@
               <p>dari teh pucuk daun pilihan</p>
             </div>
           </menu>
+
           <menu>
             <img
               src="https://images.unsplash.com/photo-1557142046-c704a3adf364?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -119,6 +99,7 @@
               <p>dari susu sapi segar</p>
             </div>
           </menu>
+
           <menu>
             <img
               src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1398&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -129,6 +110,7 @@
               <p>merupakan hidangan pembuka</p>
             </div>
           </menu>
+
           <menu>
             <img
               src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -142,6 +124,7 @@
         </div>
       </div>
     </figure>
+
     <aside>
       <div class="follow">
         <p>FOLLOW US</p>
@@ -166,23 +149,27 @@
           <i class="fa"> &#xf232; </i> Whatsapp Chat only
         </p>
       </div>
-
       <div class="Question">
         <p class="Quetion-content">ANY QUESTION?</p>
-        <div class="Question-box">
-          <input type="text" placeholder="Your name" />
-          <input type="text" placeholder="Your Email" />
-        </div>
+        <form>
+          <div class="Question-box">
+            <input type="text" placeholder="Your name" class="form1" />
+            <input type="email" placeholder="Your Email" class="form1" />
+          </div>
 
-        <div class="Massage">
-          <textarea
-            id="w3review"
-            name="w3review"
-            rows="4"
-            cols="103.7"
-            placeholder="Your Massage"
-          ></textarea>
-        </div>
+          <div class="Massage">
+            <textarea
+              id="w3review"
+              name="w3review"
+              rows="3"
+              cols="103.7"
+              placeholder="Your Massage"
+            ></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send" class="send" />
+          </div>
+        </form>
       </div>
     </footer>
   </body>
