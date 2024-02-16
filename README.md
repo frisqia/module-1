@@ -36,4 +36,4 @@ know more about me?
 
 | [web](kopilahpilih-com.netlify.app)
 
-web : [kopilah pilih](kopilahpilih-com.netlify.app)
+web : [kopilah pilih](https://kopilahpilih-com.netlify.app/)
